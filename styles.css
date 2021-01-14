@@ -152,48 +152,6 @@ section#contact {
     margin-top: 30px;
 }
 
-.single-address {
-    background: #F8FCFF;
-    margin-bottom: 30px;
-    border-radius: 5px;
-    padding: 20px;
-    box-shadow: -1px 0px 7px 0px #0000000f;
-}
-
-.single-address-left {
-    margin-right: 30px;
-}
-
-.single-address-left p i {
-    background-color: #fff;
-    color: #45b44d;
-    width: 80px;
-    height: 80px;
-    line-height: 80px;
-    text-align: center;
-    border-radius: 50px;
-    font-size: 30px;
-    box-shadow: -1px 0px 7px 0px #0000000f;
-}
-
-.single-address p {
-    margin: 0;
-    padding: 0;
-}
-
-.single-address-right h4 {
-    margin: 15px 0 5px;
-    text-transform: capitalize;
-    font-size: 20px;
-    color: #2C3E50;
-    font-family: 'poppins', sans-serif;
-    font-weight: 500;
-}
-
-.single-address-right p {
-    font-size: 16px;
-}
-
 .form-control {
     height: 50px;
     border: 2px solid transparent;
@@ -279,5 +237,20 @@ footer.footer p {
 }
 
 @media screen and (max-width: 350px) {
-    
+    .navbar-brand img {
+        width: 170px;
+    }
+
+    .card .card-body .price {
+        font-size: 15px;
+    }
+
+    .card .card-body a.btn {
+        font-size: 10px;
+        padding: 5px !important;
+    }
+
+    .contact-form .btn {
+        font-size: 10px;
+    }
 }
