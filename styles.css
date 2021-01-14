@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+}
+
+.heading-section h2 {
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    color: #363958;
+}
+
+.heading-section p {
+    font-size: 16px;
+    color: #363958;
+}
+
+/* main css start here */
+
+
+header.header {
+    background-color: #76c27e4f;
+    padding-top: 20px;
+    padding-bottom: 74px;
+    height: auto;
+}
+
+.header-top .navbar .navbar-nav li a {
+    color: #000;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 700;
+    transition: all 0.3s ease;
+}
+
+.header-top .navbar .navbar-nav li {
+    margin: 0 10px;
+}
+
+.header-top .navbar .navbar-nav li:hover a{
+    color: #FA804C;
+}
+
+.btn-bg {
+    background-color: #FA804C;
+    color: white;
+    border: 2px solid transparent;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: all 0.3 ease;
+}
+
+.btn-bg:hover {
+    background-color: transparent;
+    color: #FA804C;
+    border: 2px solid #FA804C;
+}
+
+.intro-text h1 span:first-child {
+    color: #FA804C;
+}
+
+.intro-text h1 span:last-child {
+    color: #363958;
+}
+
+.intro-text h1 {
+    font-size: 50px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.intro-text p {
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+
+/* header css end here */
+
+section.product-area {
+    background-color: #fff;
+    padding: 50px;
+}
+
+.card {
+    border-radius: 10px;
+    border: none;
+    box-shadow: 2px 2px 20px #d3d3d385;
+}
+
+.card .card-img{
+    width: 100%;
+}
+
+.card .card-img img {
+    width: 100%;
+    padding: 20px;
+    display: inline-block;
+}
+
+.card .card-body .price {
+    color: #FA804C;
+    font-weight: 700;
+    font-size: 30px;
+    display: inline-block;
+}
+
+.card .card-body a.btn {
+    float: right;
+}
+
+.card-body h3 {
+    font-size: 20px;
+    color: #363958;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.card-body p {
+    font-size: 14px;
+    margin: 20px 0;
+}
+
+/* product area end here */
+
+.card.about-card-area {
+    margin: 20px 0;
+    padding: 20px;
+}
+
+.about-card-text h4 {
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.about-card-text p {
+    font-size: 14px;
+}
+
+/* about area css end here */
+
+section#contact {
+    background-color: #D5ECD7;
+    padding: 60px;
+    margin-top: 30px;
+}
+
+.single-address {
+    background: #F8FCFF;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: -1px 0px 7px 0px #0000000f;
+}
+
+.single-address-left {
+    margin-right: 30px;
+}
+
+.single-address-left p i {
+    background-color: #fff;
+    color: #45b44d;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    border-radius: 50px;
+    font-size: 30px;
+    box-shadow: -1px 0px 7px 0px #0000000f;
+}
+
+.single-address p {
+    margin: 0;
+    padding: 0;
+}
+
+.single-address-right h4 {
+    margin: 15px 0 5px;
+    text-transform: capitalize;
+    font-size: 20px;
+    color: #2C3E50;
+    font-family: 'poppins', sans-serif;
+    font-weight: 500;
+}
+
+.single-address-right p {
+    font-size: 16px;
+}
+
+.form-control {
+    height: 50px;
+    border: 2px solid transparent;
+    transition: all 0.3s ease;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border: 2px solid #FA804C;
+}
+
+footer.footer {
+    background-color: #d5ecd7b3;
+    padding: 20px;
+}
+
+footer.footer p {
+    color: #363958;
+    text-transform: capitalize;
+    font-size: 16px;
+}
+
+/* footer css end here */
+
+
+/* resoponsive css start here */
+
+@media screen and (max-width: 1199px) {
+	
+}
+
+
+@media screen and (max-width: 991px) {
+
+}
+
+
+@media screen and (max-width: 767px) {
+
+    .heading-section h2 {
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .heading-section p {
+        font-size: 10px;
+    }
+}
+
+
+@media screen and (max-width: 575px) {
+    .navbar-brand img {
+        width: 200px;
+    }
+
+    .intro-text h1 {
+        font-size: 30px;
+    }
+
+    .intro-text p {
+        font-size: 14px;
+    }
+
+    .single-products .card-body h3 {
+        font-size: 18px;
+    }
+    
+    .single-products .card-body p {
+        font-size: 12px;
+    }
+
+    .card.about-card-area {
+        text-align: center;
+    }
+
+    .card.about-card-area img {
+        margin-bottom: 20px;
+    }
+
+    footer.footer p {
+        font-size: 10px;
+    }
+}
